@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai4</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('nhap so a vao day anh oi'));
+    let b = parseInt(prompt('nhap so b vao day anh oi'));
+    let c = parseInt(prompt('nhap so c vao day anh oi'));
+    if ( a > b && a > c) {
+        document.write('a la so lon nhat');
+    } else if(a < c && b < c){
+        document.write('c la so lon nhat');
+    }
+    else if( a < b  && c < b)
+    {
+        document.write('b la so lon nhat');
+    }
+    else {
+        document.write(' 3 so a b c bang nhau');
+    }
+</script>
+</body>
+</html>
